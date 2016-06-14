@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Beginner Shop</title>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#login {
+	max-width: 340px;
+	margin: 100px auto;
+	background: #F9F9F9;
+	box-shadow: 0 0 10px #AAA;
+}
+
+#login h3 {
+	text-align: center;
+	padding: 25px 10px;
+	background-color: #2B2F3E;
+	color: #B0B0BC;
+}
+
+fieldset {
+	margin: 0;
+	border: none;
+}
+
+form {
+	padding: 0;
+	margin: 0;
+	padding: 15px;
+}
+
+input[type=email], input[type=submit] {
+width: 90%;
+padding: 1em;
+margin-top: 1.2em;
+color: #888;
+}
+
+
+input[type=password] {
+width: 90%;
+padding: 1em;
+margin-top: 1.2em;
+color: #888;
+}
+
+input[type=submit] {
+	width: 100%;
+	padding: 1.4em;
+	margin-top: 1.5em 0;
+	color: #888;
+	background-color: #00CDB1;
+	border: none;
+	color: #EEE;
+	border-bottom: 4px solid transparent;
+}
+
+form p {
+	text-align: center;
+	color: #888;
+	width: 30px;
+	margin: 10px auto 0;
+	background: #F9F9F9;
+	position: relative;
+	bottom: 20px;
+}
+
+.border-p {
+	border-top: 1px solid #888;
+	margin: 10px 10px;
+}
+
+
+
+button:hover {
+	opacity: 0.9;
+	border-color: #3B3998;
+}
+
+a {
+text-decoration:none;
+}
+
+</style>
+<body>
+	<div id="login">
+		<h3>Login</h3>
+		<fieldset>
+			<form action="">
+				<input type="email" name="Email" placeholder="Email" required>
+				<input type="password" name="password" placeholder="password"  required>
+				<input type="submit" name="submit" value="Login" required>
+				<a href="Home.html"><input type="submit" name="submit" value="Sign out"></a>
+				<div class="border-p"></div>
+				
+			</form>
+		</fieldset>
+	</div>
+
+</body>
+</html>

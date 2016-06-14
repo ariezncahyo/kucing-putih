@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+<style>
+body{
+width:1349px;
+height:0 auto;
+margin:auto;
+background:url("images/bg.png") repeat scroll;
+font-family: "Open Sans",Helvetica,Arial,sans-serif;
+line-height: 1.7;
+}
+
+@font-face {
+font-family:"Neon";
+scr:url("font/Neon.ttf");
+}
+
+.header {
+background-color:#605858;
+height:100px;
+}
+
+.header img {
+margin-top:10px;
+margin-left:10px;
+}
+
+.header .link {
+float:right;
+}
+
+.header .link a {
+color:#86E3E3;
+text-decoration:none;
+padding-right:10px;
+}
+
+.header .link a:hover {
+color:gray;
+}
+
+.header .pencarian {
+float:right;
+margin-right:550px;
+}
+
+input {
+width:400px;
+padding:5px;
+}
+
+.header .myshop p{
+float:right;
+width:100px;
+height:27px;
+background-color:#B11D1D;
+margin-right:430px;
+margin-top:-27px;
+padding-left:10px;
+color:#FFFFFF;
+}
+
+p .form-submit {
+margin: 7px 0px;
+    margin-top: 7px;
+    margin-right: 0px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+	padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+margin-bottom: 0px;
+	}
+	
+input[type=submit] {
+margin-top:15px;
+width:120px;
+}
+
+input[type=text]  {
+margin:10px;
+margin-left:25px;
+}
+
+textarea {
+margin:10px;
+margin-left:25px;
+}
+
+label .author name{
+margin-left:30px;
+}
+
+span .mandatory {
+margin-left:20px;
+}
+
+.respond {
+margin:40px;
+}
+
+.nav h2 {
+margin-left:25px;
+}
+
+.nav p {
+margin-left:25px;
+}
+
+input[type=password]
+{
+	margin: 10px;
+	margin-left: 25px;
+}
+
+</style>
+<body>
+<div class="body">
+	<div class="header">
+		<img src="images/beginner shop.png" />
+		
+		<span class="link">
+			<a href="Home.html">Home</a>
+			<a href="customerCare.html">Customer Care</a>
+			<a href="login.html">Login/SignUp</a>
+		</span>
+		
+		<span class="pencarian">
+			<input type="search" placeholder="Cari Menurut Kata Kunci..." />
+		</span>
+		
+		<span class="myshop">
+			<p>My Shop</p>
+		</span>
+	</div>
+	
+	<div class="nav">
+		<h2>Customer Care</h2>
+			<p>Apakah anda sudah tahu bahwa Beginner Shop? Kami menyediakan bahan busana wanita dan pria dengan lengkap dan kami juga menjualkan tata rias untuk wanita dan juga perlengapan aksesoris untuk wanita dan pria.</p>
+			<p>Jika anda ingin menghubungi kami anda bisa mengomentar dan dibawah  yang sudah kami sediakan.</p>
+	</div>
+	
+	<div class="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave A Comment
+		<small>
+			<a id="cancle-comment-reply-link" style="display:none;" href="customerCare.html" rel="nofollow">
+			Batal balasan</a>
+		</small>
+		</h3>
+			
+		<form id="commentform"  method="post" action="customareCare.html">
+				
+				<div class="double-line"></div>
+					<p class="comment-form-author">
+						<label class="author">Name
+							<span class="mandatory">
+								*
+							</span>
+						</label>
+					</p>
+						
+						<input id="author" type="text" size="30" value="" name="author" required />
+					
+					<p class="comment-form-email">
+						<label class="email">Email
+								<span class="mantadory">
+									*
+								</span>
+						</label>
+					</p>
+						
+						<input id="email" type="text" size="30" value="" name="email" required />
+					
+					<p class="comment-form-password">
+						<label class="password">Password</label>
+						
+					</p>
+						<input id="password" type="password" size="30" value="" name="password"  required />
+					
+					<p class="comment-form-comment">
+						<label class="comment">Your comment</label>
+						
+					</p>
+						<textarea id="comment" aria-required="true" rows="8" cols="45" name="comment"></textarea>
+					
+					<p class="form-submit">
+						<input type="submit" name="submit" value="Submit Comment">
+						
+					</p>
+		</form>
+	</div>
+</div>
+		
+			
+			
+		
+		
+			
+</body>
+</html>
